@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face{
+	font-family: 'poppins';
+	src: url("../fonts/Poppins-Bold.ttf") format('truetype');
+	src: url("../fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+header{
+	padding: 10px 0px;
+	background-color: #F7E2FF;
+}
+#hero{
+	padding: 20px 0;
+	background-color: #F7E2FF;
+	color: #002746; 
+	border-right: 10px;
+}
+#hero h1{
+	padding: 20px;
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+#hero h2{
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1.6;
+	text-align: center;
+	font-weight: 600;
+}
+#hero .btn-dark{
+	letter-spacing: 2px;
+	background-color:#002746;
+	color: #F7E2FF;
+	padding: 20px 40px;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+}
+#acerca-de-mi {
+    background-color: #002746;
+    padding: 50px;
+    margin: 50px;
+    color: #F7E2FF;
+}
+
+#acerca-de-mi .titulo {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#acerca-de-mi p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#servicios{
+	padding: 80px 0;
+	background-color: #F7E2FF;
+	color: #002746; 
+	border-right: 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	text-size: 50px;
+}
+
+#servicios h1{
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	text-size: 40px;
+}
+#servicios h3{
+	font-size: 20px;
+	padding: 5px;
+}
+#servicios i{
+	font-size: 40px;
+	padding: 5px;
+}
+
+#portafolio{
+	background-color: #002746;
+	color: #F7E2FF;
+	padding: 20px;
+}
+#portafolio h1{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	text-size: 40px;
+	font-weight: 700;
+}
+#contact-form{
+text-align: center;	
+padding: 20px;
+background-color: #F7E2FF;
+}
+
+#contact-form h3{
+	padding: 10px;
+	font-size: 30px;
+	line-height: 1.6;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+#contact-form h4{
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: 600;
+}
+
+#contact-form .btn-submit{
+	background-color: #002746;
+	color: #F7E2FF;
+	text-align: center;
+	padding: 8px 16px;
+	transition: background-color 0.5s ease;
+}
+footer {
+  background-color: #002746;
+  color: #F7E2FF;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer h3 {
+  color: #F7E2FF;
+  font-size: 16px;
+}
+
+footer i {
+  color: #F7E2FF;
+font-size: 40px;
+}
+
+footer .d-flex {
+  justify-content: center; 
+}
+.nav-link{
+	color: #002746 !important;
+}
+.nav-link:hover {
+	color: #F7E2FF;
+	text-decoration: underline;
+	text-decoration-color: #F7E2FF;
+}
